@@ -1,0 +1,29 @@
+{
+  "ratings": [
+    {
+      "name": "Tony Blair",
+      "rating": 3,
+      "comment": "This is a brilliant app. I use it whenever I go out."
+    },
+    {
+      "name": "Danny Dyer",
+      "rating": 4,
+      "comment": "Wicked app! Highly rate it!"
+    },
+    {
+      "name": "Morrissey",
+      "rating": 1,
+      "comment": "Whatever."
+    },
+    {
+      "name": "Nathan Barley",
+      "rating": 5,
+      "comment": "It's totally Mexico!"
+    },
+    {
+      "name": "Superhans",
+      "rating": 5,
+      "comment": "This app is really moreish."
+    }
+  ]
+}

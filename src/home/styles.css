@@ -1,0 +1,196 @@
+@import '../../css/_variables.css';
+
+/* ::-webkit-input-placeholder {
+  color: var(--colour-main);
+}
+
+::-moz-placeholder {
+  color: var(--colour-main);
+}
+
+:-ms-input-placeholder {
+  color: var(--colour-main);
+}
+
+:-moz-placeholder {
+  color: var(--colour-main);
+} */
+
+input,
+textarea {
+  width: 100%;
+  transition: border 0.4s ease;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.form {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 33.333%;
+  height: 100%;
+  z-index: 2;
+  background-color: var(--colour-gray);
+  padding: 2rem;
+  padding-top: 4rem;
+  padding-left: var(--content-space);
+  color: var(--colour-main);
+  font-size: 1.125rem;
+}
+
+.formTitle {
+  margin-top: 0.5rem;
+  margin-bottom: 2em;
+  color: var(--colour-blue);
+}
+
+.formInputContainer {
+  margin-bottom: 1.5em;
+}
+
+.formInputContainerRating {
+  text-align: right;
+}
+
+.formInput {
+  padding: 0.4em;
+  background-color: var(--colour-bg);
+  border: none;
+  border-bottom: 3px solid var(--colour-dark-gray);
+
+  &:active,
+  &:focus {
+    border-color: var(--colour-blue);
+  }
+}
+
+.formInputInvalid {
+  border-color: var(--colour-red);
+}
+
+.formTextarea {
+  min-height: 6rem;
+  padding: 0.4em;
+  background-color: var(--colour-bg);
+  border: none;
+  border-bottom: 3px solid var(--colour-dark-gray);
+
+  &:active,
+  &:focus {
+    border-color: var(--colour-blue);
+  }
+}
+
+.formTextareaInvalid {
+  border-color: var(--colour-red);
+}
+
+.formRating {
+  display: inline-block;
+}
+
+.formRatingHead {
+  display: inline-block;
+  margin-right: 1em;
+  color: var(--colour-main);
+  vertical-align: super;
+}
+
+.data {
+  float: right;
+  width: 60%;
+  text-align: left;
+}
+
+.dataCommentContainer {
+  margin-top: 3rem;
+}
+
+.dataCommentList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dataCommentItem {
+  width: 45%;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.dataComment,
+.dataName {
+  margin: 0;
+}
+
+.dataCommentTitle {
+  margin-bottom: 1.5em;
+}
+
+.dataComment {
+  color: #888;
+  font-style: italic;
+  font-size: 1.25em;
+  margin-bottom: 0.125em;
+}
+
+.dataName {
+  font-size: 0.925em;
+}
+
+.formButtonContainer {
+  text-align: right;
+}
+
+.buttonClear,
+.buttonSubmit {
+  display: inline-block;
+  width: 7.4rem;
+  height: 2.8rem;
+  padding: 0;
+  border: none;
+  background-color: var(--colour-blue);
+  color: #fff;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: var(--colour-red);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+.icon {
+  display: inline-block;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-right: 1.2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+}

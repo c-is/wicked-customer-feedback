@@ -1,0 +1,20 @@
+@import '../../css/_variables.css';
+
+.header {
+  display: block;
+  width: 100%;
+  margin-bottom: 6rem;
+  padding: 0;
+}
+
+.headerTitle {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+}
